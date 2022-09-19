@@ -13,7 +13,11 @@ namespace Test
             MonExemple();
             Console.ReadKey();
         }
-        public static void MonExemple(int param, bool param2)
+<<<<<<< HEAD
+        public static void MonExemple(bool param)
+=======
+        public static void MonExemple(int param)
+>>>>>>> cc2615804d8a9d2559cf787945a6f1386f47b711
         {
             Console.WriteLine("MonExemple");
         }

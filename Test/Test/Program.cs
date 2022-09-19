@@ -10,6 +10,12 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            MonExemple();
+            Console.ReadKey();
+        }
+        public static void MonExemple()
+        {
+            Console.WriteLine("MonExemple");
         }
     }
 }

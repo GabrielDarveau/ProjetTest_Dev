@@ -18,6 +18,7 @@ namespace Test
         public static void MonExemple(int param, bool param2)
         {
             Console.WriteLine("MonExemple");
+            Console.WriteLine(param);
             Console.WriteLine(param2);
         }
     }

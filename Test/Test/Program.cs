@@ -13,7 +13,7 @@ namespace Test
             MonExemple();
             Console.ReadKey();
         }
-        public static void MonExemple()
+        public static void MonExemple(int param)
         {
             Console.WriteLine("MonExemple");
         }

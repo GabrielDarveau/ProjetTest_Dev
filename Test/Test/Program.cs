@@ -10,12 +10,15 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            MonExemple();
+            int param = 0;
+            bool param2 = false;
+            MonExemple(param, param2);
             Console.ReadKey();
         }
         public static void MonExemple(int param, bool param2)
         {
             Console.WriteLine("MonExemple");
+            Console.WriteLine(param2);
         }
     }
 }
